@@ -6,7 +6,7 @@ import numpy as np
 
 def sensor_worker(sensor_id, queue):
     """Simulates a sensor sending data to a queue with potential faults."""
-    for _ in range(20):  # Increased data points for better graphing
+    for _ in range(30):  # Increased data points for better graphing
         try:
             data = random.uniform(20.0, 100.0)  # e.g., temperature
             if random.random() < 0.1:  # 10% chance of fault

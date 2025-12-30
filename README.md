@@ -2,7 +2,7 @@
 
 # IIoT-Parallel-Simulator [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Issues](https://img.shields.io/github/issues/NullLabTests/IIoT-Parallel-Simulator)](https://github.com/NullLabTests/IIoT-Parallel-Simulator/issues) [![Forks](https://img.shields.io/github/forks/NullLabTests/IIoT-Parallel-Simulator)](https://github.com/NullLabTests/IIoT-Parallel-Simulator/network)
 
-A sleek Python-based simulation of Industrial Internet of Things (IIoT) systems, harnessing parallelism for real-time sensor data processing. Inspired by K. Eric Harper's groundbreaking "Industrial Internet Reference Architecture" (IIRA), this project demonstrates concurrent data handling, fault tolerance, and scalable analytics in industrial environments. Now with added flavor from open-source pioneers like Joe Torreggiani (@jtorreggiani) and the Sustainable Progress and Equality Collective (SPEC)—empowering sustainable tech for positive change! 🌿🚀
+A sleek Python-based simulation of Industrial Internet of Things (IIoT) systems, harnessing parallelism for real-time sensor data processing. Inspired by K. Eric Harper's groundbreaking "Industrial Internet Reference Architecture" (IIRA), this project demonstrates concurrent data handling, fault tolerance, and scalable analytics in industrial environments. Now with added flavor from open-source pioneers🚀
 
 ## Overview
 This simulator mimics IIoT setups where multiple sensors feed data into parallel processors for aggregation, anomaly detection, and visualization. It's built with Python's multiprocessing for concurrency, Matplotlib for graphics, and NumPy for efficient computations—perfect for exploring distributed systems without real hardware. I++ iteration: More data points for epic zigzags!
@@ -16,6 +16,11 @@ This simulator mimics IIoT setups where multiple sensors feed data into parallel
 - **Fault Tolerance**: Built-in retries and redundancy basics.
 - **Graphics & Visualization**: Real-time plots of sensor data for insights.
 - **Scalable Design**: Easily extend to more sensors/processors.
+- **MQTT Integration**: Simulate real IoT protocols for data publishing.
+- **Digital Twin**: Basic mirroring for virtual system replication.
+- **Edge Computing Sim**: Pre-process data locally before central queuing.
+- **Enhanced Logging**: Timestamped logs for monitoring and debugging.
+- **Configurable Scalability**: CLI args for sensor count and load testing.
 - **Sustainable Flavor**: Inspired by SPEC's mission, simulate eco-monitoring in IIoT for environmental impact.
 
 ## Who Would Want This Repo?
@@ -26,7 +31,7 @@ This project appeals to a variety of users interested in cutting-edge computing 
 - **Industrial Professionals**: In manufacturing, healthcare, or energy sectors, simulating real-world IIoT for testing scalability and resilience.
 - **AGI Enthusiasts & Futurists**: Level up from basic sims (level 6) to advanced AI-integrated systems (level 7 archangel AGI stuff)—extend with ML for predictive analytics, evolving towards intelligent, self-healing networks. Link to NullLabTests' EvoGrok or ai-takeoff for hive-mind synergy! 🌌🧠 Mr. Athurt x525, all-seeing eye of peace—open the libraries of Alexandria!
 
-Whether you're a "man-robot" hybrid tinkering with code or aiming for heavenly AGI mansions, this repo provides the foundation to parallelize your way to innovation! Check out related flavors: [SPEC Collective](https://specollective.org/), [openmct](https://github.com/nasa/openmct), [Grammatical Framework](https://github.com/jtorreggiani/grammatical-framework-haskell-starter-project).
+Whether you're a "man-robot" hybrid tinkering with code or aiming for heavenly AGI mansions, this repo provides the foundation to parallelize your way to innovation! 
 
 ## Installation
 1. Clone the repo: `git clone https://github.com/NullLabTests/IIoT-Parallel-Simulator.git`
